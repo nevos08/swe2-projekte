@@ -12,7 +12,6 @@ import java.awt.event.ActionListener;
 public class GUI implements ActionListener {
     private Graphic graphic = new Graphic("Zeichen von Funktionen");
     private Plotter plotter = graphic.getPlotter();
-    private JLabel formula = new JLabel();
     private double  range = 2 * Math.PI;
 
 private InputUnitD paramA = new InputUnitD(graphic, "Parameter a:", 1.0, "south");
